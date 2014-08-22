@@ -1,0 +1,28 @@
+{
+    "name": "contao-components/colorpicker",
+    "type": "component",
+    "description": "Color picker integration for Contao Open Source CMS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leo Feyer",
+            "homepage": "https://github.com/leofeyer"
+        }
+    ],
+    "require": {
+        "robloach/component-installer": "~0.0"
+    },
+    "extra": {
+        "component": {
+            "scripts": [
+                "js/mooRainbow.min.js"
+            ],
+            "styles": [
+                "css/mooRainbow.min.css"
+            ],
+            "files": [
+                "images/*"
+            ]
+        }
+    }
+}
