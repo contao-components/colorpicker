@@ -1,12 +1,12 @@
 {
     "name": "contao-components/colorpicker",
-    "type": "contao-component",
     "description": "Color picker integration for Contao Open Source CMS",
     "license": "MIT",
+    "type": "contao-component",
     "authors": [
         {
-            "name": "Leo Feyer",
-            "homepage": "https://github.com/leofeyer"
+            "name": "Christopher Beloch",
+            "homepage": "https://github.com/CBeloch"
         }
     ],
     "require": {
