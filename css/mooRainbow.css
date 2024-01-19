@@ -6,38 +6,38 @@
 	width: 390px;
 	height: 310px;
 	/* PATCH border: 1px solid #636163; */
-	border: 1px solid var(--border, #999);
+	border: 1px solid var(--content-border, #999);
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
 	box-shadow: 0 3px 6px var(--border, #999);
 	z-index: 998;
 	/* PATCH EOF */
-	background-color: var(--content-bg, #fff);
+	background-color: var(--panel-bg, #fff);
 }
 .moor-overlayBox {
 	width: 256px; /* Width and Height of the overlay must be setted here: default 256x256 */
 	height: 256px;
 	margin-top: 9px;
 	margin-left: 9px;
-	border: 1px solid var(--border, #999); /* PATCH */
+	border: 1px solid var(--form-border, #999); /* PATCH */
 }
 .moor-slider {
-	border: 1px solid var(--border, #999); /* PATCH */
+	border: 1px solid var(--form-border, #999); /* PATCH */
 	margin-top: 9px;
 	margin-left: 280px;
 	width: 19px; /* if you want a bigger or smaller slider... */
 	height: 256px;
 }
 .moor-colorBox {
-	border: 1px solid var(--border, #999); /* PATCH */
+	border: 1px solid var(--form-border, #999); /* PATCH */
 	width: 59px;
 	height: 68px;
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-left: 315px;
 }
 .moor-currentColor { /* Bottom Box Color, the backup one */
-	margin-top: 55px;
+	margin-top: 45px;
 	margin-left: 316px;
 	width: 59px;
 	height: 34px;
@@ -118,7 +118,7 @@ span.moor-ballino { /* Style hue ° (degree) !! */
 	line-height: 9px; font-size:0px; /* IE Fix, thanks atany */
 }
 .moor-chooseColor { /* Top Box Color, the chosen one */
-	margin-top: 21px;
+	margin-top: 11px;
 	margin-left: 316px;
 	width: 59px;
 	height: 34px;
